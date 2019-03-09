@@ -140,7 +140,7 @@ $options->multipage = true;
 // Initially it's best to keep this disabled to make sure everything works
 // as expected. If you have APC enabled, please also see smart_cache in the
 // advanced section.
-$options->caching = false;
+$options->caching = true;
 
 // Cache time (minutes)
 // ----------------------

@@ -11,3 +11,6 @@ handlers:
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
+
+env_variables:
+  APP_STORAGE: /cache/rss
